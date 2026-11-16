@@ -2,7 +2,7 @@
 
 View **PDF and Word documents** in VS Code. Light on size, and it keeps your documents' formatting intact.
 
-[![Install from the VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Install%20from%20Marketplace-1f9d6b?logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=ilypopv.dx)
+[![Install from the VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Install%20from%20Marketplace-1f9d6b?logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=vs-office.dxv)
 
 <img src="docs/images/docx.png" alt="Excel Editor" width="49%"> <img src="docs/images/pdf.png" alt="CSV Editor" width="49%">
 
@@ -17,7 +17,7 @@ View **PDF and Word documents** in VS Code. Light on size, and it keeps your doc
 
 ## Install
 
-Search for **dx** in the Extensions view, or run `ext install ilypopv.dx`.
+Search for **dx** in the Extensions view, or run `ext install vs-office.dxv`.
 
 ## Use
 
@@ -67,7 +67,7 @@ dx has no settings of its own yet.
 ```bash
 npm install
 npm test
-npm run package   # builds dx.vsix
+npm run package   # builds dxv.vsix
 ```
 
 Press `F5` to debug.
