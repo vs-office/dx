@@ -1,6 +1,6 @@
 {
   "name": "dxv",
-  "displayName": "dx",
+  "displayName": "dxv",
   "description": "View PDF, DOCX and DOC files in VS Code; annotate PDFs and edit the text of DOCX documents.",
   "version": "2026.0.1",
   "publisher": "ilypopv",
@@ -177,6 +177,7 @@
     "watch": "npm run vendor && webpack --mode none --watch",
     "vendor": "node scripts/vendor.js",
     "package": "vsce package --no-dependencies -o dxv.vsix",
+    "vsce-package": "npm run package",
     "test": "node --test test/*.test.js",
     "lint": "eslint .",
     "format": "prettier --write .",
